@@ -10,10 +10,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css"
 </head>
 <body>
  
- <body class="bg-gray-100 tex-gray-800">
-    <nav class="flex py-5 bg-indigo-500 text-white">
+ <body class="bg-gray-100 tex-gray-500">
+    <nav class="flex py-5 bg-white-500 text-blak">
 <div class="w-1/2 px-12 mr-auto">
-    <p class="text-2x1 font-bold">my aplication</p>
+    <body class="
+    <p class="text-2x1 font-bold ">Plan</p>
 </div>
 <ul class="w-1/2 px-16 ml-auto flex justify-end pt-1">
     @if(auth()->check())
@@ -22,18 +23,20 @@ href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css"
     </li>
     <li>
         <a href="{{route('login.destroy')}}" class="font-bold
-       py-3 px-4 rounded-md bg-red-500 hover:bg-red-600
-      " >Log Out</a>
+        border-2 border-green py-3 px-4 rounded-md hover:bg-white 
+        hove;text-indigo-700
+      " >Cerrar sesion </a>
     </li>
     @else
     <li class="mx-6" > 
         <a href="{{route('login.index')}}"class="font-semibold 
-        hover:bg-indigo-700 py-3 py-4 rounded-md">Log in</a>
+        border-2 border-green py-3 px-4 rounded-md hover:bg-white 
+        hove;text-indigo-700">Loguin</a>
     </li>
     <li>
         <a href="{{route('registre.index')}}" class="font-semibold
-       border-2 border-white py-2 px-4 rounded-md hover:bg-white 
-       hove;text-indigo-700" >Registre</a>
+       border-2 border-green py-2 px-4 rounded-md hover:bg-white 
+       hove;text-indigo-700" >Registrate</a>
     </li>
     @endif
     </ul> 

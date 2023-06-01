@@ -18,7 +18,7 @@ class SessionController extends Controller
             }
             return redirect()->to('/');
         }
-        public function destoy() {
+        public function destroy() {
             auth()->logout();
             return redirect()->to('/');
         }

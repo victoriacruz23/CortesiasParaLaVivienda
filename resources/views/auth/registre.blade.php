@@ -28,7 +28,7 @@ text-red-600 p-2 my-2" >* {{$message}}</p>
 tex-lg placeholder-gray-900 p-2 my-2 focus:bg-white" placeholder="password" 
 id="password" name="password">
 @error('password')
-<p class="borde border-red-500 rounded-md bg-red-100 w-full
+<p class="borde border-grey-500 rounded-md bg-red-100 w-full
 text-red-600 p-2 my-2" >* {{$message}}</p>
 @enderror
 <input type="password" class="border border-gay-200 rounded-md bg-gay-200 w-full
